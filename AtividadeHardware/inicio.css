@@ -1,0 +1,33 @@
+
+
+.carousel {
+    height: 70vh;
+    width: 100%;
+    
+}
+
+.carousel img {
+    width: 100%;
+    height: 70vh;
+}
+body{
+    background-image: url(imagens/fundo-de-papel-de-parede-abstrato-escuro-desenho-de-fumaca.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rodapé{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.curiosidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.fcol-md-7r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
