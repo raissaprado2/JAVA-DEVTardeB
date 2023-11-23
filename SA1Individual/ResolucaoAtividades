@@ -1,0 +1,45 @@
+package SA1Individual;
+
+import java.util.Scanner;
+
+public class ResolucaoAtividades {
+    Scanner sc= new Scanner(System.in);
+
+    public void exercicio1() {
+        //1. digitar o 1° n°
+        System.out.println("Informe p 1° valor");
+        double n1 = sc.nextDouble();
+        //2. digitar o 2° n°
+        System.out.println("Informe p 2° valor");
+        double n2 = sc.nextDouble();
+        //3. escolher a operação 
+        System.out.println("Informe a operação desejada");
+        System.out.println("1-adição; 2-Subtração, 3- multiplicação; 4 - divisão ");
+        int operação = sc.nextDouble();
+        if(operação==1){
+           resultado = n1+=n2;
+        }else if (operação==2){
+            resultado = n1+n2;
+        }else if (operação==3){
+            resultado = n1*n2;
+        }else if (operação== 4 && n2!=0){
+            resultado = n1/n2;
+            System.out.ptintln ("o resultado é "+resultado);
+        }else {
+            System.out.println ("operação inválida ou valor irregular");
+        }
+    public void exercicio2() {
+        int vetorA[] = new int[]{3,5,7,11,13,15,17,19};
+        int vetorB[] =new int [vetorA.length];
+        int i=0;
+        while(i<vetorA.length){
+            vetorB[i]= vetorA[6 *2];
+            System.out.println("vetorB["+i+"]="+vetorB[i]);
+            i++;
+        }
+    }
+    public void exemplo3() {
+        
+    }
+    }
+}
