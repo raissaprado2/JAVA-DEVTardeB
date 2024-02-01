@@ -1,6 +1,8 @@
 {
     "java.project.sourcePaths": [
+        "ExemploThrow.java",
         "Exception",
-        "ExemploThrow.java"
+        "Elevador",
+        "DevNoite3-Termo/Documents/DevNoite3°Termo/Elevador"
     ]
 }
