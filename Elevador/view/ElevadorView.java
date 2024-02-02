@@ -1,7 +1,6 @@
 package view;
 
-public class ElevadorView {
-    import javax.swing.*;
+import javax.swing.*;
 import java.awt.*;
 
 public class ElevadorView extends JFrame {
@@ -10,7 +9,6 @@ public class ElevadorView extends JFrame {
     private JButton btnSelecionarElevador1;
     private JButton btnSelecionarElevador2;
     private JTextArea display;
-    private ElevadorPanel[] elevadores;
 
     public ElevadorView() {
         // ... (Código para inicializar a interface gráfica)
@@ -28,9 +26,6 @@ public class ElevadorView extends JFrame {
         return botoesChamar;
     }
 
-    public ElevadorPanel[] getElevadores() {
-        return elevadores;
-    }
 
     public JButton getBtnSelecionarElevador1() {
         return btnSelecionarElevador1;
@@ -41,4 +36,3 @@ public class ElevadorView extends JFrame {
     }
 }
 
-}

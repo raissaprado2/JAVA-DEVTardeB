@@ -20,7 +20,7 @@ public class Elevador extends JFrame {
 
         // Inicialização de variáveis
         botoesChamar = new JButton[2];
-        botoesAndar = new JButton[6];
+        botoesAndar = new JButton[9];
         display = new JTextArea();
         elevadores = new ElevadorPanel[2];
         posicaoElevadores = new int[] { 0, 0 };
@@ -33,8 +33,8 @@ public class Elevador extends JFrame {
 
 
         // Painel para os botões de chamada e andares
-        JPanel botoesPanel = new JPanel(new GridLayout(6, 2, 10, 10));
-        for (int i = 0; i < 6; i++) {
+        JPanel botoesPanel = new JPanel(new GridLayout(10, 2, 10, 10));
+        for (int i = 0; i < 9; i++) {
             final int andar = i;
             botoesAndar[i] = new JButton(String.valueOf(i));
             botoesAndar[i].addActionListener(new ActionListener() {
@@ -47,7 +47,7 @@ public class Elevador extends JFrame {
             botoesPanel.add(botoesAndar[i]);
 
             botoesChamar[i % 2] = new JButton("Chamar");
-            botoesChamar[i % 2].setBackground(Color.RED);
+            botoesChamar[i % 2].setBackground(Color.GREEN);
             botoesChamar[i % 2].addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {

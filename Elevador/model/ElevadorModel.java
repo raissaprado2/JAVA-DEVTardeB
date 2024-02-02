@@ -1,7 +1,6 @@
 package model;
 
 public class ElevadorModel {
-    public class ElevadorModel {
         private int[] posicaoElevadores;
         private int[] direcaoElevadores;
         private int elevadorSelecionado;
@@ -28,5 +27,3 @@ public class ElevadorModel {
             return direcaoElevadores;
         }
     }
-    
-}
