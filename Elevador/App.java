@@ -1,5 +1,5 @@
 package Elevador;
 
-public class app {
+public class App {
     
 }

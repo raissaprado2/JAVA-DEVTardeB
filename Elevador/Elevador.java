@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 // Classe principal que representa a janela do sistema de elevadores
-public class elevador extends JFrame {
+public class Elevador extends JFrame {
     private JButton[] botoesChamar;
     private JButton[] botoesAndar;
     private JTextArea display;
@@ -15,7 +15,7 @@ public class elevador extends JFrame {
     private int elevadorSelecionado;
 
     // Construtor da classe Elevador
-    public elevador() {
+    public Elevador() {
         super("Sistema de Elevadores");
 
         // Inicialização de variáveis
@@ -136,7 +136,7 @@ private void moverElevador(final int indiceElevador, final int andar) {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new elevador();
+                new Elevador();
             }
         });
     }
