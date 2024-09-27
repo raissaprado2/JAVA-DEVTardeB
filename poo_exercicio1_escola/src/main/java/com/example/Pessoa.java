@@ -1,16 +1,19 @@
 package com.example;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.Setter;
 
 @AllArgsConstructor
-
-
+@Setter
+@Getter
 public class Pessoa {
+    //atributos
     private String nome;
     private String cpf;
 
-    //exibirinformações
+    //exibirInformacoes()
     public String exibirInfo(){
-        return "Nome "+nome+" cpf "+cpf;
+        return "Nome "+nome+", CPF "+cpf;
     }
 }
